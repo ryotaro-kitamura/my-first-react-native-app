@@ -7,7 +7,6 @@ class AddScreen extends React.Component {
     return (
       <View style={{ flex: 1, justifyContent: 'center' }}>
         <Text>This is AddScreen</Text>
-      
         <Icon 
           name = 'close'
           onPress = {() => this.props.navigation.navigate('home')}
